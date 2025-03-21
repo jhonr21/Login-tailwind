@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-center text-sm bg-black border-t border-gray-200 py-6 shadow-inner bg-black">
+      <footer className="text-center text-smborder-t border-gray-200 py-6 shadow-inner bg-black">
         <div className="text-gray-600 font-semibold">
           © {new Date().getFullYear()} Grupo Corporativo NovaTech
         </div>

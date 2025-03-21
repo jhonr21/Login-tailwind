@@ -7,7 +7,7 @@ const Nav = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    setUser(null);
+    setUser(false);
     navigate("/");
   };
 
